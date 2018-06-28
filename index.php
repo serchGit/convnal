@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/responsive.dataTables.min.css">
   <link rel="stylesheet" type="text/css" href="css/chart-1.css">
   <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 
   <body>
     <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded fixed-top">
@@ -154,7 +155,7 @@
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <img class="d-block img-fluid hidden-xs-down" src="images/camp.jpg" alt="First slide">
-              <img class="d-block img-fluid hidden-sm-up" src="images/camp.jpg" width="440" alt="First slide">
+              <img class="d-block img-fluid hidden-sm-up" src="images/camp.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
               <img class="d-block img-fluid hidden-xs-down" src="images/camp1.jpg" alt="Second slide">
