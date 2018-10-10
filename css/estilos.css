@@ -3,10 +3,16 @@ nav{
   
 }
 .tituloEsfuerzo{
-	font-size: 35px;
-	color:darkblue;
+	font-family: 'Indie Flower', cursive;
+	font-size: 3rem;
+	color:#002C44;
 	position: relative;
 	top:2.5rem;
+	text-shadow: 3px 3px 5px #999;
+    font-weight: 600;
+}
+.cont-tit{
+
 }
 .logo img{
   position: relative;
