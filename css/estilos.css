@@ -7,12 +7,18 @@ nav{
 	font-size: 3rem;
 	color:#002C44;
 	position: relative;
-	top:2.5rem;
+	top:3.5rem;
 	text-shadow: 3px 3px 5px #999;
     font-weight: 600;
 }
 .cont-tit{
-
+	
+}
+.titulo{
+	font-family: 'Indie Flower', cursive;
+	color:#002C44;
+	text-shadow: 3px 3px 5px #999;
+    font-weight: 600;
 }
 .logo img{
   position: relative;
@@ -78,7 +84,19 @@ footer{
 	padding: 5px;
 	text-align: center;
 }
-
+.icon-info{
+	background: #002133;
+    padding: 9px 19px;
+    border-radius: 50%;
+}
+.info-campa p i{
+	position: relative;
+    left: -25px;
+    background: #002133;
+    padding-right: 26px;
+    border-radius: 0 4px 4px 0;
+    color:#fff;
+}
 @media (max-width: 991px){
 	.pad{
 		padding-top: 3rem;

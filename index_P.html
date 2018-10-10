@@ -26,7 +26,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Features</a>
@@ -37,7 +37,7 @@
         </ul>
       </div>
     </nav>
-    <div class="d-flex justify-content-end mt-4">
+    <div class="d-flex justify-content-end mt-2">
       <div class="cont-tit">
         <h1 class="pt-4 hidden-md-down mr-5 display-4 tituloEsfuerzo">Esfuerzo Juvenil Nacional</h1>
       </div>
@@ -92,16 +92,20 @@
                 </div>
               </div>
               <div class="tab-pane" id="profile" role="tabpanel">
-                <div class="col-lg-9 archivos centrar mt-3">
-                  <p class="mb-1">Programa</p>
+                <div class="col-lg-10 archivos centrar mt-3">
+                  <p class="mb-1">Programa Campamento Juvenil 2019</p>
                   <a href="docPrueba.odt" class="btn btn-info btn-sm mr-4">Descargar</a>
                   <a href="#" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
                   <hr>
-                  <p class="mb-1">Bases</p>
+                  <p class="mb-1">Reglamento Campamento Juvenil 2019</p>
+                  <a href="docPrueba.odt" class="btn btn-info btn-sm mr-4">Descargar</a>
+                  <a href="#" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
+                  <hr style="border:1px solid #00273B;">
+                  <p class="mb-1">Bases Convención Juvenil 2019</p>
                   <button class="btn btn-info btn-sm mr-4">Descargar</button>
                   <a href="#" class="">Ver en linea</a>
                   <hr>
-                  <p class="mb-1">Reglamento</p>
+                  <p class="mb-1">Reglamento Convención Juvenil 2019</p>
                   <button class="btn btn-info btn-sm mr-4">Descargar</button>
                   <a href="#" class="">Ver en linea</a>
                 </div>
@@ -144,7 +148,7 @@
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" id="titulo-concur">Modal title</h5>
                             <p class="text-info mt-3">Iglesias Participantes</p>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
@@ -167,7 +171,7 @@
       </div>
       <div class="col-lg-8">
         <div class="d-flex pt-5 align-items-end">
-          <h1 class="mb-0">Actividades</h1>
+          <h1 class="mb-0 titulo">Actividades</h1>
           <div class="d-flex pb-1 ml-auto">
             <a href="https://www.facebook.com/esfuerzojuvenil/"><i class="fa fa-facebook-square mr-3 fa-lg"></i></a>
             <a href="#"><i class="fa fa-youtube mr-3 text-danger fa-lg"></i></a>
@@ -381,8 +385,9 @@
      $('.tablas').on('click','button.btn-tabla', function(ev){
       var $this = $(this);
       var concurso = $this.attr('data-tipo');
+      console.log(concurso)
 
-       $('#exampleModalLabel').html(concurso);
+       $('#titulo-concur').html(concurso);
      });
     } );
     </script>
