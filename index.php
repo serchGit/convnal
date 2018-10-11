@@ -167,7 +167,6 @@
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <img class="d-block img-fluid hidden-xs-down" src="images/camp.jpg" alt="First slide">
-              <img class="d-block img-fluid hidden-sm-up" src="images/camp.jpg" width="440"  alt="First slide">
             </div>
             <div class="carousel-item">
               <img class="d-block img-fluid hidden-xs-down" src="images/camp1.jpg" alt="Second slide">
@@ -266,7 +265,7 @@
       <script src="js/jszip.min.js"></script>
       <script src="js/pdfmake.min.js"></script>
       <script src="js/vfs_fonts.js"></script>
-      <script src="js/buttons.html5.min.js"></script>
+      <script src="js/buttons.html5.min.js"></script>g-top: 5r
       <script src="js/buttons.print.min.js "></script>
       <script type="text/javascript" src="js/chart-1.js"></script>
       <script type="text/javascript" src="js/chart-2.js"></script>
@@ -281,7 +280,7 @@
     <script>
     function tabla1(){
       $.get('core/consumo.php', function(resp){
-          var tabla = `<table class="table table-striped table-hover" id="table">
+          var tabla = `<table class="table table-striped table-hover" id="table">g-top: 5r
                         <thead>
                           <tr>
                             <td>Iglesia</td>
