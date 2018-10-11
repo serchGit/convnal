@@ -23,20 +23,24 @@
 
     <div class="d-flex justify-content-center mt-5">
       <div class="cont-tit container">
+        <div class="img-camp">
         <h1 class="pt-4 display-4 titulo text-center">Campamento Juvenil Nacional</h1>
-        <div class="">
-          <div class="col-lg-6 info-campa">
+          <img src="images/camp1.png" class="" alt="camp" height="100">
+          <!-- <hr style="border:1px solid green;"> -->
+        </div>
+        <div class="d-flex align-items-center mt-4 flex-wrap">
+          <div class="col-lg-7 info-campa pl-5">
             <p><span class="icon-info"></span><i class="fa fa-calendar"></i>Los días 10 al 12 de enero 2019</p>
             <p><span class="icon-info"></span><i class="fa fa-map-marker pl-1"></i>Nuevo Paraíso Tuxtepec Oaxaca</p>
-            <p><span class="icon-info"></span><i class="fa fa-map-marker pl-1"></i>Nuevo Paraíso Tuxtepec Oaxaca</p>
+            <p><span class="icon-info"></span><i class="fa fa-edit"></i>¿Qué llevar?</p>
+          </div>
+          <div class="col-lg-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237.04431736927145!2d-96.13056259333298!3d18.085017737068977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c3e6f33ae0c01f%3A0xd66ac24fb5240c9e!2sIglesia+Evang%C3%A9lica+Monte+De+Los+Olivos!5e0!3m2!1ses-419!2smx!4v1539210231573" width="300" height="300" frameborder="0" style="border:0; margin:0 auto" allowfullscreen></iframe>
           </div>
         </div>
       </div>
-      <div>
-        
-      </div>
     </div>
-    <section class="d-flex">
+    <section class="d-flex mt-4">
       <div class="container d-flex justify-content-center">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner" role="listbox">

@@ -97,6 +97,18 @@ footer{
     border-radius: 0 4px 4px 0;
     color:#fff;
 }
+.img-camp{
+	border-bottom: 2px solid green;
+	height: 7rem;
+}
+.img-camp img{
+	width: 100%;
+    position: relative;
+    z-index: -1;
+    height: 200px;
+    bottom: 178px;
+    opacity: .2;
+}
 @media (max-width: 991px){
 	.pad{
 		padding-top: 3rem;
@@ -106,6 +118,9 @@ footer{
 	}
 	.banner img{
 		max-width: 10rem;
+	}
+	.cont-tit h1{
+		font-size: 2.5rem;
 	}
 }
 @media (max-width: 500px){
@@ -143,5 +158,11 @@ footer{
 	}
 	.banner-1a img{
 		border-radius:0;
+	}
+	.img-camp{
+		height: 5rem;
+	}
+	.cont-tit h1{
+		font-size: 1.5rem;
 	}
 }
