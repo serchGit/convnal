@@ -2,6 +2,9 @@ nav{
   background-image: url("../images/fondo-otono.jpg");
   
 }
+.azul{
+	color:#00324B;
+}
 .tituloEsfuerzo{
 	font-family: 'Indie Flower', cursive;
 	font-size: 3rem;

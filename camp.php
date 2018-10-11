@@ -44,9 +44,11 @@
             </div>
             <div class="info-campa d-flex">
               <div>
-                <span class="icon-info"></span><i class="fa fa-edit"></i>
+                <span class="icon-info"></span><i class="fa fa-dollar pl-1"></i>
               </div>
-              <p>¿Qué llevar?</p>
+              <p>Costo: <strong class="azul">$450.00</strong> por Persona<br>
+                Niños:
+              </p>
             </div>
 
           </div>
