@@ -112,6 +112,38 @@ footer{
     bottom: 178px;
     opacity: .2;
 }
+.lista-cosas{
+ font-family: 'Indie Flower', cursive;
+ font-size: 1.2rem;
+ color: green;
+}
+.lista-sugerencia{
+ font-family: 'Indie Flower', cursive;
+ font-size: 1.2rem;
+ color:#0b3452;
+}
+.manos{
+	position: relative;
+}
+.manos .mano-izq{
+    position: absolute;
+    z-index: 2;
+    transform: rotate(132deg);
+    top: -80px;
+    left: -40px;
+	width: 120px;
+}
+.manos .mano-der{
+    position: absolute;
+    z-index: 2;
+	right: -40px;
+    top: -80px;
+    transform: rotateY(180deg) rotate(135deg);
+	width: 120px;
+}
+ul li{
+	list-style: none;
+}
 @media (max-width: 991px){
 	.pad{
 		padding-top: 5rem;
@@ -128,6 +160,18 @@ footer{
 	.img-camp{
 	height: 6rem;
 }
+}
+@media (max-width: 600px){
+	.manos .mano-izq{
+		width: 50px;
+		top: -30px;
+    	left: -2px;
+	}
+	.manos .mano-der{
+		width: 50px;
+		top: -30px;
+    	right: -2px;
+	}
 }
 @media (max-width: 500px){
 	.banner{
@@ -170,5 +214,15 @@ footer{
 	}
 	.cont-tit h1{
 		font-size: 1.7rem;
+	}
+	.lista-cosas,.lista-sugerencia{
+		font-size: .9rem;
+	}
+	.llevar{
+		font-size: 2rem;
+	}
+	.lista-cosas ul li i,.lista-sugerencia ul li i{
+		margin-right: 5px !important;
+		margin-left: 5px !important;
 	}
 }
