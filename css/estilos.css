@@ -89,7 +89,7 @@ footer{
     padding: 9px 19px;
     border-radius: 50%;
 }
-.info-campa p i{
+.info-campa  i{
 	position: relative;
     left: -25px;
     background: #002133;
@@ -111,7 +111,7 @@ footer{
 }
 @media (max-width: 991px){
 	.pad{
-		padding-top: 3rem;
+		padding-top: 5rem;
 	}
 	.titulo-medio{
 		font-size: 22px;
@@ -122,6 +122,9 @@ footer{
 	.cont-tit h1{
 		font-size: 2.5rem;
 	}
+	.img-camp{
+	height: 6rem;
+}
 }
 @media (max-width: 500px){
 	.banner{
@@ -163,6 +166,6 @@ footer{
 		height: 5rem;
 	}
 	.cont-tit h1{
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 	}
 }
