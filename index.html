@@ -95,19 +95,19 @@
                 <div class="col-lg-10 archivos centrar mt-3">
                   <p class="mb-1">Programa Campamento Juvenil 2019</p>
                   <a href="docPrueba.odt" class="btn btn-info btn-sm mr-4">Descargar</a>
-                  <a href="#" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
+                  <a href="#" id="programCamp" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
                   <hr>
                   <p class="mb-1">Reglamento Campamento Juvenil 2019</p>
                   <a href="docPrueba.odt" class="btn btn-info btn-sm mr-4">Descargar</a>
-                  <a href="#" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
+                  <a href="#" id="reglamentoCamp" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
                   <hr style="border:1px solid #00273B;">
                   <p class="mb-1">Bases Convención Juvenil 2019</p>
                   <a href="BASES_CONCURSOS_2019.pdf" class="btn btn-info btn-sm mr-4">Descargar</a>
-                  <a href="#" class="">Ver en linea</a>
+                  <a href="#" id="basesConv" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
                   <hr>
                   <p class="mb-1">Textos 2019</p>
                   <a href="textos_2019.pdf" class="btn btn-info btn-sm mr-4">Descargar</a>
-                  <a href="#" class="">Ver en linea</a>
+                  <a href="#" id="textosConv" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
 
                   <!-- <p class="mb-1">Reglamento Convención Juvenil 2019</p>
                   <button class="btn btn-info btn-sm mr-4">Descargar</button>
@@ -130,14 +130,14 @@
                       <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Bases</h5>
+                            <h5 class="modal-title azul" id="tituloVer">Bases</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
                             </button>
                           </div>
-                          <div class="modal-body">
+                          <div class="modal-body cuerpo-docu">
                             <div class="documento">
-                              <iframe src="https://docs.google.com/viewer?url=docPrueba.odt&embedded=true" width="100%" height="100%" style="border: none;"></iframe>
+                              <!-- <iframe src="https://docs.google.com/viewer?url=http://serchgit.github.io/convnal/textos_2019.pdf&embedded=true" width="100%" height="100%" style="border: none;"></iframe> -->
                             </div>
                           </div>
                           <div class="modal-footer">
@@ -392,7 +392,16 @@
 
        $('#titulo-concur').html(concurso);
      });
-    } );
+
+     $('#textosConv').click(function(event) {
+       $('#tituloVer').html('Textos 2019');
+       $('.documento').html('<iframe src="https://docs.google.com/viewer?url=http://serchgit.github.io/convnal/textos_2019.pdf&embedded=true" width="100%" height="100%" style="border: none;"></iframe>');
+     });
+     $('#basesConv').click(function(event) {
+       $('#tituloVer').html('Bases 2019');
+       $('.documento').html('<iframe src="https://docs.google.com/viewer?url=http://serchgit.github.io/convnal/BASES_CONCURSOS_2019.pdf&embedded=true" width="100%" height="100%" style="border: none;"></iframe>');
+     });
+    });
     </script>
   </body>
 

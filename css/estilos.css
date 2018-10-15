@@ -152,6 +152,12 @@ footer{
 ul li{
 	list-style: none;
 }
+.cuerpo-docu{
+	height: 40vh;
+}
+.documento{
+	height: 35vh;
+}
 @media (max-width: 991px){
 	.pad{
 		padding-top: 5rem;
