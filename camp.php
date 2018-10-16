@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="shortcut icon" href="images/logoFrat.ico"/>
 <title>index</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">

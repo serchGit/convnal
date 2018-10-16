@@ -176,7 +176,11 @@ ul li{
 	}
 	.img-camp{
 	height: 6rem;
-}
+	}
+	#map{
+		width: 500px;
+		height: 200px; 
+	}
 }
 @media (max-width: 600px){
 	.manos .mano-izq{
@@ -250,5 +254,9 @@ ul li{
 	}
 	.info-campa{
 		font-size: 1rem;
+	}
+	#map{
+		width: 250px;
+		height: 250px; 
 	}
 }
