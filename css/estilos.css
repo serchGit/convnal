@@ -259,4 +259,13 @@ ul li{
 		width: 250px;
 		height: 250px; 
 	}
+	.informacion-conve{
+		font-size: 13px;
+	}
+	section h1{
+		font-size: 2rem;
+	}
+	.alert-info{
+		font-size: 13px;
+	}
 }
