@@ -67,8 +67,17 @@ nav{
 }
 .card-1{
 	background: transparent;
-	background-image: url("../images/slide-2.jpg");
+	background-image: url("../images/textura.png");
 	background-repeat: no-repeat;
+	padding: .5rem;
+	/*height: 200px;*/
+}
+.card-1S{
+	background: transparent;
+	background-image: url("../images/sion.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    background-position-y: -16px;
 	padding: .5rem;
 	/*height: 200px;*/
 }
