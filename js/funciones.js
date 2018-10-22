@@ -80,7 +80,7 @@
             $('.tabla').html(tablaL);
             $('#table').DataTable();
     }
-    function escgrima(){
+    function esgrima(){
       var tablaE = `<table class="table table-info table-success" id="table">
                       <thead>
                         <tr>
