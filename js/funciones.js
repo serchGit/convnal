@@ -81,7 +81,7 @@
             $('#table').DataTable();
     }
     function esgrima(){
-      var tablaE = `<table class="table table-info table-success" id="table">
+      var tablaE = `<table class="table table-danger table-striped" id="table">
                       <thead>
                         <tr>
                           <td>Participante</td>
