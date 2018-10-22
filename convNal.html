@@ -22,7 +22,7 @@
 
   <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded fixed-top">
+    <!-- <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,7 +40,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
     <section class="mt-5 container">
       <h1 class="azul titulo text-center pt-4">CONVENCIÓN JUVENIL NACIONAL 2019</h1>
@@ -95,7 +95,7 @@
     </section>
 
 <footer class="d-flex flex-wrap justify-content-around text-white align-items-center pt-3">
-  <div class="col-lg-3 col-md-6">
+ <!--  <div class="col-lg-3 col-md-6">
     <div class="d-flex align-items-start">
       <img src="images/logoFrat.jpg" width="50" class="img-fluid rounded-circle mr-3" alt="logo-footer">
       <p>Fraternidad de Iglesias de Dios en la República Mexicana</p>  
@@ -127,7 +127,7 @@
       <a href="#"><i class="fa fa-youtube mr-3 text-danger"></i></a>
       <a href="#"><i class="fa fa-twitter text-info"></i></a>
     </div>
-  </div>
+  </div> -->
 </footer>   
 
       <script  src="js/jquery-3.2.1.min.js"></script>
@@ -151,9 +151,12 @@
       <script type="text/javascript" src="js/dataTables.responsive.min.js"></script>
       <script type="text/javascript" src="js/ctk.js"></script>
       <script type="text/javascript" src="js/sweetalert.min.js"></script>
+      <script type="text/javascript" src="js/funciones.js"></script>
 
     <script>
     $(document).ready(function() {
+      nav();
+      footer();
      $('#myTab a').click(function (e) {
         e.preventDefault()
         $(this).tab('show')

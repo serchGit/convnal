@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/estilos.css">
   <link href="https://fonts.googleapis.com/css?family=Bitter|Charmonman|Indie+Flower|Mali" rel="stylesheet">
   <body>
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded fixed-top">
+    <!-- <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,7 +36,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
     <div class="d-flex justify-content-end mt-2">
       <div class="cont-tit">
         <h1 class="pt-4 hidden-md-down mr-5 display-4 tituloEsfuerzo">Esfuerzo Juvenil Nacional</h1>
@@ -117,9 +117,9 @@
               </div>
               <div class="tab-pane" id="messages" role="tabpanel">
                 <div class="d-flex flex-column p-3 tablas">
-                  <button type="button" class="btn btn-warning mt-4 mb-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Lecturas Encontradas" onclick="tabla1()">Lecturas Encontradas</button>
-                  <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Esgrima" onclick="tabla2()">Esgrima</button>
-                  <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Canto">Canto</button>
+                  <button type="button" class="btn btn-warning mt-4 mb-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Lecturas Encontradas" onclick="lecturas()">Lecturas Encontradas</button>
+                  <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Esgrima" onclick="esgrima()">Esgrima</button>
+                  <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Canto" onclick="canto()">Canto</button>
                   <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Preguntas">Preguntas</button>
                   <button type="button" class="btn btn-warning mb-4 mt-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Generales">General</button>
                 </div>
@@ -278,7 +278,7 @@
    
 
 <footer class="d-flex flex-wrap justify-content-around text-white align-items-center pt-3">
-  <div class="col-lg-3 col-md-6">
+  <!-- <div class="col-lg-3 col-md-6">
     <div class="d-flex align-items-start">
       <img src="images/logoFrat.jpg" width="50" class="img-fluid rounded-circle mr-3" alt="logo-footer">
       <p>Fraternidad de Iglesias de Dios en la República Mexicana</p>  
@@ -310,7 +310,7 @@
       <a href="#"><i class="fa fa-youtube mr-3 text-danger"></i></a>
       <a href="#"><i class="fa fa-twitter text-info"></i></a>
     </div>
-  </div>
+  </div> -->
 </footer> 
 
       <script  src="js/jquery-3.2.1.min.js"></script>
@@ -385,6 +385,8 @@
       },'json');
     }
     $(document).ready(function() {
+      nav();
+      footer();
      $('#myTab a').click(function (e) {
         e.preventDefault()
         $(this).tab('show')
