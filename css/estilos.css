@@ -102,6 +102,7 @@ li .span-concurso{
     left: 23px;
     font-size: 13px;
     color: #fff;
+    text-align: justify;
     display: none;
 }
 li:hover .span-concurso{

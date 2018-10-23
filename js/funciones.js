@@ -128,6 +128,78 @@
             $('.tabla').html(tablaC);
             $('#table').DataTable();
     }
+    function poesia(){
+      var tablaP = `<table class="table table-warning table-striped" id="table">
+                      <thead>
+                        <tr>
+                          <td>Participante</td>
+                          <td>Lugar</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr><td>Adonai</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>El Divino Salvador</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>Edo de Méx</td></tr>
+                        <tr><td>Monte de los Olivos</td><td>Tuxtepec Oaxaca</td></tr>
+                        <tr><td>Bethel</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Cristo Viene</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Arca de Noé</td><td>Edo de Méx</td></tr>
+                        <tr><td>La Hermosa</td><td>Sn Francisco Edo de Méx</td></tr>
+                      </tbody>
+                    </table>`;
+            $('.tabla').html(tablaP);
+            $('#table').DataTable();
+    }
+    function preguntas(){
+      var tablaPr = `<table class="table table-active table-striped" id="table">
+                      <thead>
+                        <tr>
+                          <td>Participante</td>
+                          <td>Lugar</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr><td>Adonai</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>El Divino Salvador</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>Edo de Méx</td></tr>
+                        <tr><td>Monte de los Olivos</td><td>Tuxtepec Oaxaca</td></tr>
+                        <tr><td>Bethel</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Cristo Viene</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Arca de Noé</td><td>Edo de Méx</td></tr>
+                        <tr><td>La Hermosa</td><td>Sn Francisco Edo de Méx</td></tr>
+                      </tbody>
+                    </table>`;
+            $('.tabla').html(tablaPr);
+            $('#table').DataTable();
+    }
+    function textos(){
+      var tablaT = `<table class="table table-success table-striped" id="table">
+                      <thead>
+                        <tr>
+                          <td>Participante</td>
+                          <td>Lugar</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr><td>Adonai</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>El Divino Salvador</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>Edo de Méx</td></tr>
+                        <tr><td>Monte de los Olivos</td><td>Tuxtepec Oaxaca</td></tr>
+                        <tr><td>Bethel</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Cristo Viene</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Arca de Noé</td><td>Edo de Méx</td></tr>
+                        <tr><td>La Hermosa</td><td>Sn Francisco Edo de Méx</td></tr>
+                      </tbody>
+                    </table>`;
+            $('.tabla').html(tablaT);
+            $('#table').DataTable();
+    }
 $(function(){
 	console.log('hola desde funciones')
 });
