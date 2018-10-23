@@ -6,7 +6,7 @@
 				      <a class="navbar-brand" href="index.html"><img src="images/logoFratTr.ico" width="35"></a>
 				      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 				        <ul class="navbar-nav">
-				          <li class="nav-item active">
+				          <li class="nav-item">
 				            <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
 				          </li>
 				          <li class="nav-item">

@@ -108,6 +108,13 @@ li .span-concurso{
 li:hover .span-concurso{
 	display: block;
 }
+.navbar-nav li{
+	border-right: 3px solid rgba(255,255,255,.5);
+	border-radius: 5px;
+}
+.navbar-nav li:last-child{
+	border-right: none;
+}
 footer{
 	background-image: url("../images/fondo-otono.jpg");
 }
@@ -206,6 +213,9 @@ ul li{
 	#map{
 		width: 500px;
 		height: 200px; 
+	}
+	.navbar-nav li{
+	border-right:none;
 	}
 }
 @media (max-width: 600px){
