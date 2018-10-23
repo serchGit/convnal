@@ -9,13 +9,12 @@ nav{
 	color:#9F030F;
 }
 .tituloEsfuerzo{
-	font-family: 'Indie Flower', cursive;
-	font-size: 3rem;
+	font-size: 2rem;
 	color:#002C44;
 	position: relative;
-	top:3.5rem;
+	top:4rem;
 	text-shadow: 3px 3px 5px #999;
-    font-weight: 600;
+    font-weight: 400;
 }
 .cont-tit{
 	
@@ -90,6 +89,23 @@ nav{
 .art-2{
 	border:1px solid #ccc;
 	text-align: justify;
+}
+li{
+	position: relative;
+}
+li .span-concurso{
+	position: absolute;
+    background: rgba(163, 0, 26, .8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: -.2rem;
+    left: 23px;
+    font-size: 13px;
+    color: #fff;
+    display: none;
+}
+li:hover .span-concurso{
+	display: block;
 }
 footer{
 	background-image: url("../images/fondo-otono.jpg");
@@ -276,5 +292,12 @@ ul li{
 	}
 	.alert-info{
 		font-size: 13px;
+	}
+	.logo img{
+		width: 200px;
+	}
+	li .span-concurso{
+		left:-3rem;
+		top:-1rem;
 	}
 }

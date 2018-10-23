@@ -3,7 +3,7 @@
 				      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				        <span class="navbar-toggler-icon"></span>
 				      </button>
-				      <a class="navbar-brand" href="index.html">EJN</a>
+				      <a class="navbar-brand" href="index.html"><img src="images/logoFratTr.ico" width="35"></a>
 				      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 				        <ul class="navbar-nav">
 				          <li class="nav-item active">
@@ -81,7 +81,7 @@
             $('#table').DataTable();
     }
     function esgrima(){
-      var tablaE = `<table class="table table-info table-success" id="table">
+      var tablaE = `<table class="table table-danger table-striped" id="table">
                       <thead>
                         <tr>
                           <td>Participante</td>
