@@ -90,6 +90,23 @@ nav{
 	border:1px solid #ccc;
 	text-align: justify;
 }
+li{
+	position: relative;
+}
+li .span-concurso{
+	position: absolute;
+    background: rgba(163, 0, 26, .7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: -2rem;
+    left: 23px;
+    font-size: 13px;
+    color: #fff;
+    display: none;
+}
+li:hover i ~ .span-concurso{
+	display: block;
+}
 footer{
 	background-image: url("../images/fondo-otono.jpg");
 }
