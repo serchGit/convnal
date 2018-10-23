@@ -311,4 +311,10 @@ ul li{
 		left:-3rem;
 		top:-1rem;
 	}
+	.mayor-info{
+		text-align: center;
+	}
+	.mayor-info a{
+		margin-left: 0 !important;
+	}
 }
