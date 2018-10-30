@@ -37,11 +37,11 @@
 					        <p class="m-0">Cel: 55 6987 3041</p>
 					      </li>
 					      <li>
-					        <b>Noé Macías</b> Ortíz <i>Secretario Juvenil Nacional</i>
+					        <b>Noé Macías Ortíz</b> <i>Secretario Juvenil Nacional</i>
 					        <p class="m-0">Cel: 55 2213 9713</p>
 					      </li>
 					      <li>
-					        <b>Monica</b> Estrada <i>Tesorera Juvenil Nacional</i>
+					        <b>Monica Estrada</b> <i>Tesorera Juvenil Nacional</i>
 					        <p class="m-0">Cel: 55 1854 1077</p>
 					      </li>
 					    </ul>
