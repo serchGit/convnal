@@ -33,11 +33,11 @@
 					  <div class="col-lg-5 col-md-6 d-flex justify-content-center">
 					    <ul>Contacto:
 					      <li>
-					        <b>Laura Berenice Garcia Cruz</b> <i>Directora Juvenil Nacional</i>
+					        <b>Berenice Garcia</b> <i>Directora Juvenil Nacional</i>
 					        <p class="m-0">Cel: 55 6987 3041</p>
 					      </li>
 					      <li>
-					        <b>Noé Macías Ortíz</b> <i>Secretario Juvenil Nacional</i>
+					        <b>Noé Macías</b> <i>Secretario Juvenil Nacional</i>
 					        <p class="m-0">Cel: 55 2213 9713</p>
 					      </li>
 					      <li>
