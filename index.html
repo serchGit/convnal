@@ -54,7 +54,7 @@
                   <a href="https://www.facebook.com/sociedad.sion/" target="blanck_"><img src="images/sion-sem100.jpg" class="" alt=""></a>
                 </div> -->
                 <div class="d-flex align-items-center justify-content-between my-1 banner-1a col-md-10 col-lg-12 centrar mt-3">
-                  <a href="camp.html" class="ancla-camp"><img src="images/campAncla.jpg" width="100" height="100" class="" alt=""></a>
+                  <a href="camp.html" class="ancla-camp"><img src="images/camp19P.jpg" width="100" height="100" class="" alt=""></a>
                   <div class="py-2 px-3 campa">
                     <p>Campamento Juvenil Nacional 3 al 5 Enero 2019<br>Nuevo Paraíso Tuxtepec Oaxaca</p>
                   </div>
@@ -66,12 +66,12 @@
                   <a href="convNal.html" class=""><img src="images/logoEJN.jpg" width="100" height="100" class="" alt=""></a>
                 </div>
                 <hr style="border:1px solid #0b3452;">
-                <div class="d-flex align-items-center justify-content-between my-1 banner-1a col-md-10 col-lg-12 centrar">
+                <!-- <div class="d-flex align-items-center justify-content-between my-1 banner-1a col-md-10 col-lg-12 centrar">
                   <a href="#"><img src="http://placeimg.com/100/100/arch" class="" alt=""></a>
                   <div class="py-2 px-3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur suscipit sint</p>
+                    <p>Desayuno Conferencia<br>La Hermosa Chimalhuacan</p>
                   </div>
-                </div>
+                </div> -->
               </div>
               <div class="tab-pane" id="profile" role="tabpanel">
                 <div class="col-lg-10 archivos centrar mt-3">
@@ -87,7 +87,7 @@
                   <a href="BASES_CONCURSOS_2019.pdf" class="btn btn-info btn-sm mr-4">Descargar <i class="fa fa-download"></i></a>
                   <a href="#" id="basesConv" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
                   <hr>
-                  <p class="mb-1">Textos 2019</p>
+                  <p class="mb-1">Textos Convención Juvenil 2019</p>
                   <a href="textos_2019.pdf" class="btn btn-info btn-sm mr-4">Descargar <i class="fa fa-download"></i></a>
                   <a href="#" id="textosConv" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
 
@@ -101,8 +101,9 @@
                   <button type="button" class="btn btn-warning mt-4 mb-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Lecturas Encontradas" onclick="lecturas()">Lecturas Encontradas</button>
                   <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Esgrima" onclick="esgrima()">Esgrima</button>
                   <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Canto" onclick="canto()">Canto</button>
-                  <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Preguntas">Preguntas</button>
-                  <button type="button" class="btn btn-warning mb-4 mt-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Generales">General</button>
+                  <button type="button" class="btn btn-warning mb-2 mt-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Generales" onclick="poesia()">Poesía</button>
+                  <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Preguntas" onclick="preguntas()">Preguntas</button>
+                  <button type="button" class="btn btn-warning my-2 btn-tabla" data-toggle="modal" data-target="#modal-1" data-tipo="Textos" onclick="textos()">Textos</button>
                 </div>
               </div>
             </div>
@@ -168,20 +169,28 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block img-fluid hidden-xs-down" src="images/camp.jpg" alt="First slide">
-              <img class="d-block img-fluid hidden-sm-up" src="images/campmov.jpg" width="440" height="220"  alt="First slide">
+              <img class="d-block img-fluid hidden-xs-down" src="images/campa19/campa19-1.jpg" alt="slide1">
+              <img class="d-block img-fluid hidden-sm-up" src="images/campa19/campa19-1mov.jpg" width="440" height="220"  alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid hidden-xs-down" src="images/camp1.jpg" alt="Second slide">
-              <img class="d-block img-fluid hidden-sm-up" src="images/camp1mov.jpg" alt="Second slide">
+              <img class="d-block img-fluid hidden-xs-down" src="images/campa19/campa19-2.jpg" alt="slide1">
+              <img class="d-block img-fluid hidden-sm-up" src="images/campa19/campa19-2mov.jpg" alt="slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid hidden-xs-down" src="images/camp2.jpg" alt="Third slide">
-              <img class="d-block img-fluid hidden-sm-up" src="images/camp2mov.jpg" alt="Third slide">
+              <img class="d-block img-fluid hidden-xs-down" src="images/campa19/campa19-3.jpg" alt="slide3">
+              <img class="d-block img-fluid hidden-sm-up" src="images/campa19/campa19-3mov.jpg" alt="slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid hidden-xs-down" src="images/camp3.jpg" alt="Third slide">
-              <img class="d-block img-fluid hidden-sm-up" src="images/camp3mov.jpg" alt="4 slide">
+              <img class="d-block img-fluid hidden-xs-down" src="images/campa19/campa19-4.jpg" alt="slide4">
+              <img class="d-block img-fluid hidden-sm-up" src="images/campa19/campa19-4mov.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid hidden-xs-down" src="images/campa19/campa19-5.jpg" alt="slide5">
+              <img class="d-block img-fluid hidden-sm-up" src="images/campa19/campa19-5mov.jpg" alt="slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid hidden-xs-down" src="images/campa19/campa19-6.jpg" alt="slide6">
+              <img class="d-block img-fluid hidden-sm-up" src="images/campa19/campa19-6mov.jpg" alt="slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -241,9 +250,9 @@
       </div>
    
       <div class="col-lg-7">
-        <div class="d-flex justify-content-between align-items-center rounded art-2 mb-2 banner">
-          <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sit nemo fugiat consequatur corrupti quam nulla sapiente, repudiandae sint molestiae, aliquam dignissimos</p>
-          <a href="#"><img src="http://placeimg.com/100/100/arch" class="rounded-circle p-2" alt=""></a>
+        <div class="d-flex justify-content-end align-items-center rounded art-2 mb-2 banner">
+          <p class="p-2 mb-0">Da un vistazo a nuestro campamento anterior...</p>
+          <a href="#"><img src="images/campmov.jpg" width="100" height="100" class="rounded-circle p-2" alt=""></a>
         </div>
         <div class="d-flex justify-content-between align-items-center rounded art-2 my-2 banner">
           <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sit nemo fugiat consequatur corrupti quam nulla sapiente, repudiandae sint molestiae, aliquam dignissimos</p>
@@ -334,6 +343,7 @@
     $(document).ready(function() {
       nav();
       footer();
+      $('.navbar-nav li:nth-child(1)').addClass('active');
      $('#myTab a').click(function (e) {
         e.preventDefault()
         $(this).tab('show')

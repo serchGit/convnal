@@ -102,10 +102,18 @@ li .span-concurso{
     left: 23px;
     font-size: 13px;
     color: #fff;
+    text-align: justify;
     display: none;
 }
 li:hover .span-concurso{
 	display: block;
+}
+.navbar-nav li{
+	border-right: 3px solid rgba(255,255,255,.5);
+	border-radius: 5px;
+}
+.navbar-nav li:last-child{
+	border-right: none;
 }
 footer{
 	background-image: url("../images/fondo-otono.jpg");
@@ -206,6 +214,9 @@ ul li{
 		width: 500px;
 		height: 200px; 
 	}
+	.navbar-nav li{
+	border-right:none;
+	}
 }
 @media (max-width: 600px){
 	.manos .mano-izq{
@@ -299,5 +310,11 @@ ul li{
 	li .span-concurso{
 		left:-3rem;
 		top:-1rem;
+	}
+	.mayor-info{
+		text-align: center;
+	}
+	.mayor-info a{
+		margin-left: 0 !important;
 	}
 }

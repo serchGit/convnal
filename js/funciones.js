@@ -6,7 +6,7 @@
 				      <a class="navbar-brand" href="index.html"><img src="images/logoFratTr.ico" width="35"></a>
 				      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 				        <ul class="navbar-nav">
-				          <li class="nav-item active">
+				          <li class="nav-item">
 				            <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
 				          </li>
 				          <li class="nav-item">
@@ -33,15 +33,15 @@
 					  <div class="col-lg-5 col-md-6 d-flex justify-content-center">
 					    <ul>Contacto:
 					      <li>
-					        <b>Laura Berenice Garcia Cruz</b> <i>Directora Juvenil Nacional</i>
+					        <b>Berenice Garcia</b> <i>Directora Juvenil Nacional</i>
 					        <p class="m-0">Cel: 55 6987 3041</p>
 					      </li>
 					      <li>
-					        <b>Noé Macías</b> Ortíz <i>Secretario Juvenil Nacional</i>
+					        <b>Noé Macías</b> <i>Secretario Juvenil Nacional</i>
 					        <p class="m-0">Cel: 55 2213 9713</p>
 					      </li>
 					      <li>
-					        <b>Monica</b> Estrada <i>Tesorera Juvenil Nacional</i>
+					        <b>Monica Estrada</b> <i>Tesorera Juvenil Nacional</i>
 					        <p class="m-0">Cel: 55 1854 1077</p>
 					      </li>
 					    </ul>
@@ -126,6 +126,78 @@
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaC);
+            $('#table').DataTable();
+    }
+    function poesia(){
+      var tablaP = `<table class="table table-warning table-striped" id="table">
+                      <thead>
+                        <tr>
+                          <td>Participante</td>
+                          <td>Lugar</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr><td>Adonai</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>El Divino Salvador</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>Edo de Méx</td></tr>
+                        <tr><td>Monte de los Olivos</td><td>Tuxtepec Oaxaca</td></tr>
+                        <tr><td>Bethel</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Cristo Viene</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Arca de Noé</td><td>Edo de Méx</td></tr>
+                        <tr><td>La Hermosa</td><td>Sn Francisco Edo de Méx</td></tr>
+                      </tbody>
+                    </table>`;
+            $('.tabla').html(tablaP);
+            $('#table').DataTable();
+    }
+    function preguntas(){
+      var tablaPr = `<table class="table table-active table-striped" id="table">
+                      <thead>
+                        <tr>
+                          <td>Participante</td>
+                          <td>Lugar</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr><td>Adonai</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>El Divino Salvador</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>Edo de Méx</td></tr>
+                        <tr><td>Monte de los Olivos</td><td>Tuxtepec Oaxaca</td></tr>
+                        <tr><td>Bethel</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Cristo Viene</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Arca de Noé</td><td>Edo de Méx</td></tr>
+                        <tr><td>La Hermosa</td><td>Sn Francisco Edo de Méx</td></tr>
+                      </tbody>
+                    </table>`;
+            $('.tabla').html(tablaPr);
+            $('#table').DataTable();
+    }
+    function textos(){
+      var tablaT = `<table class="table table-success table-striped" id="table">
+                      <thead>
+                        <tr>
+                          <td>Participante</td>
+                          <td>Lugar</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr><td>Adonai</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>El Divino Salvador</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>Edo de Méx</td></tr>
+                        <tr><td>Monte de los Olivos</td><td>Tuxtepec Oaxaca</td></tr>
+                        <tr><td>Bethel</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Cristo Viene</td><td>Valle Nal. Oaxaca</td></tr>
+                        <tr><td>Arca de Noé</td><td>Edo de Méx</td></tr>
+                        <tr><td>La Hermosa</td><td>Sn Francisco Edo de Méx</td></tr>
+                      </tbody>
+                    </table>`;
+            $('.tabla').html(tablaT);
             $('#table').DataTable();
     }
 $(function(){
