@@ -84,8 +84,8 @@
       var tablaE = `<table class="table table-danger table-striped" id="table">
                       <thead>
                         <tr>
-                          <td>Participante</td>
-                          <td>Lugar</td>
+                          <th>Iglesia Participante</th>
+                          <th>Lugar</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -108,7 +108,7 @@
     	var tablaC = `<table class="table table-info table-striped" id="table">
                       <thead>
                         <tr>
-                          <td>Participante</td>
+                          <td>Iglesia Participante</td>
                           <td>Lugar</td>
                         </tr>
                       </thead>
@@ -132,7 +132,7 @@
       var tablaP = `<table class="table table-warning table-striped" id="table">
                       <thead>
                         <tr>
-                          <td>Participante</td>
+                          <td>Iglesia Participante</td>
                           <td>Lugar</td>
                         </tr>
                       </thead>
@@ -156,8 +156,8 @@
       var tablaPr = `<table class="table table-active table-striped" id="table">
                       <thead>
                         <tr>
-                          <td>Participante</td>
-                          <td>Lugar</td>
+                          <th>Iglesia Participante</th>
+                          <th>Lugar</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -180,7 +180,7 @@
       var tablaT = `<table class="table table-success table-striped" id="table">
                       <thead>
                         <tr>
-                          <td>Participante</td>
+                          <td>Iglesia Participante</td>
                           <td>Lugar</td>
                         </tr>
                       </thead>
