@@ -80,6 +80,14 @@ nav{
 	padding: .5rem;
 	/*height: 200px;*/
 }
+.card-1adn{
+	background: transparent;
+	background-image: url("../images/adn.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    background-position-y: -16px;
+	padding: .5rem;
+}
 .card-block-a{
 	color:#eee;
 	background:rgba(255,255,255,.2);
