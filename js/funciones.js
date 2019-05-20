@@ -50,8 +50,8 @@
 					    <h4>Síguenos en...</h4>
 					    <div class="icons-footer mb-3">
 					      <a href="https://www.facebook.com/esfuerzojuvenil/"><i class="fa fa-facebook-square mr-3"></i></a>
-					      <a href="#"><i class="fa fa-youtube mr-3 text-danger"></i></a>
-					      <a href="#"><i class="fa fa-twitter text-info"></i></a>
+					      <!--<a href="#"><i class="fa fa-youtube mr-3 text-danger"></i></a>
+					      <a href="#"><i class="fa fa-twitter text-info"></i></a>-->
 					    </div>
 					  </div>`;
 		$('footer').append(footer);
