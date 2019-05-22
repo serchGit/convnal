@@ -91,6 +91,7 @@
                       <tbody>
                         <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>Monte de los Olivos</td><td>Tuxtepec Oax.</td></tr>
                         
                       </tbody>
                     </table>`;
@@ -140,6 +141,7 @@
                       <tbody>
                         <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>Monte de los Olivos</td><td>Tuxtepec Oax.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaPr);
@@ -156,6 +158,7 @@
                       <tbody>
                         <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>Monte de los Olivos</td><td>Tuxtepec Oax.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaT);
