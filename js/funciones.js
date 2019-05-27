@@ -92,6 +92,8 @@
                         <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
                         <tr><td>Monte de los Olivos</td><td>Tuxtepec Oax.</td></tr>
+                        <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
+                        <tr><td>Arca de noé</td><td>Edo de Méx.</td></tr>
                         
                       </tbody>
                     </table>`;
@@ -109,6 +111,8 @@
                       <tbody>
                         <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
+                        <tr><td>Arca de noé</td><td>Edo de Méx.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaC);
@@ -125,6 +129,8 @@
                       <tbody>
                         <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
+                        <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
+                        <tr><td>Arca de noé</td><td>Edo de Méx.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaP);
@@ -142,6 +148,8 @@
                         <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
                         <tr><td>Monte de los Olivos</td><td>Tuxtepec Oax.</td></tr>
+                        <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
+                        <tr><td>Arca de noé</td><td>Edo de Méx.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaPr);
@@ -159,6 +167,8 @@
                         <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
                         <tr><td>Monte de los Olivos</td><td>Tuxtepec Oax.</td></tr>
+                        <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
+                        <tr><td>Arca de noé</td><td>Edo de Méx.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaT);
