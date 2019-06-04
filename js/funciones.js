@@ -152,6 +152,7 @@
                         <tr><td>Monte de los Olivos</td><td>Tuxtepec Oax.</td></tr>
                         <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
                         <tr><td>Arca de Noé</td><td>Edo de Méx.</td></tr>
+                        <tr><td>La Hermosa</td><td>Chimalhuacán Edo de Méx.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaPr);
@@ -171,6 +172,7 @@
                         <tr><td>Monte de los Olivos</td><td>Tuxtepec Oax.</td></tr>
                         <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
                         <tr><td>Arca de Noé</td><td>Edo de Méx.</td></tr>
+                        <tr><td>La Hermosa</td><td>Chimalhuacán Edo de Méx.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaT);
