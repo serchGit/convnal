@@ -94,6 +94,7 @@
                         <tr><td>Monte de los Olivos</td><td>Tuxtepec Oax.</td></tr>
                         <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
                         <tr><td>Arca de noé</td><td>Edo de Méx.</td></tr>
+                        <tr><td>Bethel</td><td>Xochiapa Ver.</td></tr>
                         
                       </tbody>
                     </table>`;
@@ -113,6 +114,7 @@
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
                         <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
                         <tr><td>Arca de noé</td><td>Edo de Méx.</td></tr>
+                        <tr><td>Bethel</td><td>Xochiapa Ver.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaC);
