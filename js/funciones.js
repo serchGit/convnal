@@ -97,6 +97,7 @@
                         <tr><td>Bethel</td><td>Xochiapa Ver.</td></tr>
                         <tr><td>Huerto del Edén</td><td>CDMX</td></tr>
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>Edo de Méx.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaE);
@@ -118,6 +119,7 @@
                         <tr><td>Bethel</td><td>Xochiapa Ver.</td></tr>
                         <tr><td>Huerto del Edén</td><td>CDMX</td></tr>
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>Edo de Méx.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaC);
@@ -137,6 +139,7 @@
                         <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
                         <tr><td>Arca de Noé</td><td>Edo de Méx.</td></tr>
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Gethsemaní</td><td>Edo de Méx.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaP);
