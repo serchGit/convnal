@@ -98,6 +98,7 @@
                         <tr><td>Huerto del Edén</td><td>CDMX</td></tr>
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
                         <tr><td>Gethsemaní</td><td>Edo de Méx.</td></tr>
+                        <tr><td>Monte Sinaí</td><td>Atlixco Puebla</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaE);
@@ -161,6 +162,7 @@
                         <tr><td>Arca de Noé</td><td>Edo de Méx.</td></tr>
                         <tr><td>La Hermosa</td><td>Chimalhuacán Edo de Méx.</td></tr>
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Monte Sinaí</td><td>Atlixco Puebla</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaPr);
@@ -182,6 +184,7 @@
                         <tr><td>Arca de Noé</td><td>Edo de Méx.</td></tr>
                         <tr><td>La Hermosa</td><td>Chimalhuacán Edo de Méx.</td></tr>
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
+                        <tr><td>Monte Sinaí</td><td>Atlixco Puebla</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaT);
