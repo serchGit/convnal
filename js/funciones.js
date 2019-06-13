@@ -99,6 +99,7 @@
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
                         <tr><td>Gethsemaní</td><td>Edo de Méx.</td></tr>
                         <tr><td>Monte Sinaí</td><td>Atlixco Puebla</td></tr>
+                        <tr><td>Bethel</td><td>Valle Nacional Oax.</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaE);
