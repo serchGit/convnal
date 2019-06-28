@@ -84,6 +84,10 @@
                   <a href="docPrueba.odt" class="btn btn-info btn-sm mr-4">Descargar</a>
                   <a href="#" id="reglamentoCamp" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a> -->
                   <hr style="border:1px solid #00273B;">
+                  <p class="mb-1">Programa Convención Juvenil 2019</p>
+                  <a href="programaConv-Juv-2019.pdf" class="btn btn-info btn-sm mr-4">Descargar <i class="fa fa-download"></i></a>
+                  <a href="#" id="programaConv" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
+                  <hr>
                   <p class="mb-1">Bases Convención Juvenil 2019</p>
                   <a href="basesConcursos2019.pdf" class="btn btn-info btn-sm mr-4">Descargar <i class="fa fa-download"></i></a>
                   <a href="#" id="basesConv" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
@@ -91,7 +95,8 @@
                   <p class="mb-1">Textos Convención Juvenil 2019</p>
                   <a href="textos2019.pdf" class="btn btn-info btn-sm mr-4">Descargar <i class="fa fa-download"></i></a>
                   <a href="#" id="textosConv" class="" data-toggle="modal" data-target=".modal-2">Ver en linea</a>
-
+                  
+                  
                   <!-- <p class="mb-1">Reglamento Convención Juvenil 2019</p>
                   <button class="btn btn-info btn-sm mr-4">Descargar</button>
                   <a href="#" class="">Ver en linea</a> -->
@@ -370,6 +375,10 @@
      $('#basesConv').click(function(event) {
        $('#tituloVer').html('Bases 2019');
        $('.documento').html('<iframe src="https://docs.google.com/viewer?url=http://serchgit.github.io/ejn/basesConcursos2019.pdf&embedded=true" width="100%" height="100%" style="border: none;"></iframe>');
+     });
+     $('#programaConv').click(function(event) {
+       $('#tituloVer').html('Programa 2019');
+       $('.documento').html('<iframe src="https://docs.google.com/viewer?url=http://serchgit.github.io/ejn/programaConv-Juv-2019.pdf&embedded=true" width="100%" height="100%" style="border: none;"></iframe>');
      });
     });
     </script>
