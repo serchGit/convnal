@@ -187,6 +187,7 @@
                         <tr><td>La Hermosa</td><td>Chimalhuacán Edo de Méx.</td></tr>
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
                         <tr><td>Monte Sinaí</td><td>Atlixco Puebla</td></tr>
+                        <tr><td>Huerto del Edén</td><td>CDMX</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaT);
