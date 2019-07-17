@@ -100,6 +100,7 @@
                         <tr><td>Gethsemaní</td><td>Edo de Méx.</td></tr>
                         <tr><td>Monte Sinaí</td><td>Atlixco Puebla</td></tr>
                         <tr><td>Bethel</td><td>Valle Nacional Oax.</td></tr>
+                        <tr><td>El Divino Salvador</td><td>Ixtenco Tlaxcala</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaE);
@@ -117,8 +118,6 @@
                         <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
                         <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
-                        <tr><td>Arca de Noé</td><td>Edo de Méx.</td></tr>
-                        <tr><td>Bethel</td><td>Xochiapa Ver.</td></tr>
                         <tr><td>Huerto del Edén</td><td>CDMX</td></tr>
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
                         <tr><td>Gethsemaní</td><td>Edo de Méx.</td></tr>
@@ -136,7 +135,6 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <tr><td>Adonai</td><td>CDMX</td></tr>
                         <tr><td>Jesús el Buen Pastor</td><td>CDMX</td></tr>
                         <tr><td>El Divino Salvador</td><td>Edo de Méx.</td></tr>
                         <tr><td>Arca de Noé</td><td>Edo de Méx.</td></tr>
@@ -165,6 +163,7 @@
                         <tr><td>La Hermosa</td><td>Chimalhuacán Edo de Méx.</td></tr>
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
                         <tr><td>Monte Sinaí</td><td>Atlixco Puebla</td></tr>
+                        <tr><td>El Divino Salvador</td><td>Ixtenco Tlaxcala</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaPr);
@@ -188,6 +187,7 @@
                         <tr><td>Gethsemaní</td><td>CDMX</td></tr>
                         <tr><td>Monte Sinaí</td><td>Atlixco Puebla</td></tr>
                         <tr><td>Huerto del Edén</td><td>CDMX</td></tr>
+                        <tr><td>El Divino Salvador</td><td>Ixtenco Tlaxcala</td></tr>
                       </tbody>
                     </table>`;
             $('.tabla').html(tablaT);
